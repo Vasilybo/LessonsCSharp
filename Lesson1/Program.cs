@@ -47,13 +47,27 @@
 // 3 Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
 
-Console.Write("Введите число, чтобы определить четное ли оно: ");
+// Console.Write("Введите число, чтобы определить четное ли оно: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number % 2 == 0)
+// {
+//     Console.WriteLine($"{number}: четное");
+// }
+// else 
+// {
+//     Console.WriteLine($"{number}: нечетное");
+// }
+
+
+// 4 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+
+Console.Write("Введите число : ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number % 2 == 0)
+
+int x = 0;
+while (x < number)
 {
-    Console.WriteLine($"{number}: четное");
-}
-else 
-{
-    Console.WriteLine($"{number}: нечетное");
+if (number % 2 == 0)            
+Console.WriteLine(x += 2);
 }
